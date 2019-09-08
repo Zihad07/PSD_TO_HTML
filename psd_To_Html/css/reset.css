@@ -30,8 +30,20 @@ h3 {
     font-weight: bold;
 }
 
-.primary {
-    color: #e74c3c;
+.primary
+{
+    color: #e74c3c !important;
+}
+
+.btn-primary {
+    background-color: #e74c3c !important;
+}
+
+input,
+textarea,
+.btn-primary:focus{
+    box-shadow: none;
+    border: 0 !important;
 }
 
 .primary-bg {
