@@ -71,6 +71,41 @@ ul li {
     padding: 56px 0;
 }
 
+.white {
+    color: #fff;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+.animation {
+    opacity: 0;
+}
+
+.success {
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.error
+{
+	color: #e74c3c;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.success, .error
+{
+	text-shadow: 2px 2px 2px #000;
+}
 
 
 

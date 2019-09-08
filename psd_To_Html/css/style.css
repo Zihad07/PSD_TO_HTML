@@ -111,6 +111,272 @@ header nav ul li a:hover{
     font-size: 32px;
     color: #555;
 }
+
+.services-header,
+.portfolio-header,
+.team-header,
+.testimonial-header,
+.blog-header,
+.contact-header
+{
+    margin-bottom: 42px;
+    text-align: center;
+}
 .services .service-content h3 {
-    font-size: 1.5rem;c
+    font-size: 1.5rem;
+}
+
+/* Portfolio section */
+
+.portfolio {
+    color: #fff;
+    background: url('../img/our_work/workbg.png') no-repeat center center/cover;
+}
+
+
+.portfolio .inner-content {
+    position: relative;
+    width: 265px;
+    height: 265px;
+}
+
+.portfolio .inner-content img {
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio .inner-content .overlay-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    text-align: center;
+    background: rgba(0,0,0,.8);
+    width: 100%;
+    height: 100%;
+
+
+    transition: all .3s ;
+}
+
+
+.portfolio .inner-content .overlay-content h3,.portfolio .inner-content .overlay-content p
+{
+	color: white;
+}
+
+
+.portfolio .inner-content .overlay-content h3 {
+    padding-top: 20%;
+    color: #e74c3c;
+}
+
+.portfolio .inner-content:hover .overlay-content {
+    top: 0;
+}
+
+.portfolio .inner-content .overlay-content p a {
+    color: #2d82d8;
+    font-weight: bold;
+}
+
+.portfolio-nav {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.portfolio-nav li {
+    cursor: pointer;
+    margin-right: 10px;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+.portfolio .portfolio-nav li:last-child{
+    margin-right: 0px;
+}
+
+.portfolio .portfolio-nav li:hover {
+    background-color: #e74c3c;
+}
+
+/*** Team Section ****/
+
+
+.team .inner-content {
+    position: relative;
+    width: 265px;
+    height: 265px;
+}
+
+.team .inner-content img {
+    width: 100%;
+    height: 100%;
+}
+
+.team .inner-content .overlay-content {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    text-align: center;
+    background: rgba(0,0,0,.8);
+    width: 100%;
+    height: 100%;
+
+    transition: all .3s ;
+}
+
+/* .team-carousel li {
+    margin-right: 10px;
+    margin-left: 10px;
+} */
+
+.team .inner-content:hover .overlay-content {
+    top: 0;
+}
+
+.team .team-nav li {
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 14px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.team .team-nav li:last-child {
+    margin-right: 0px;
+}
+
+.team .team-nav li:hover {
+    background-color: #e74c3c;
+}
+
+.team-carousel .inner-content p.name {
+    padding-top: 15%;
+}
+
+.team-carousel .inner-content p.description {
+    padding: 0 15px;
+}
+
+ul.member-social-links li {
+    font-size: 14px;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    margin-right: 5px;
+}
+
+ul.member-social-links li:last-child{
+    margin-right: 0px; 
+}
+
+ul.member-social-links li a {
+    color: #fff;
+}
+
+ul.member-social-links li i {
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 50%;
+}
+
+ul.member-social-links li i.fa-facebook
+{
+	background-color: #3b5998;
+}
+
+ul.member-social-links li i.fa-twitter
+{
+	background-color: #00aced;
+}
+
+ul.member-social-links li i.fa-linkedin
+{
+	background-color: #007bb6;
+}
+
+
+/* Testimonials Section */
+
+.testimonials {
+    background: url('../img/client_Testimonial/testbg.png') no-repeat center center/cover;
+}
+
+.testimonials-carousel li {
+    text-align: center;
+    margin: 0 200px;
+}
+
+blockquote {
+    position: relative;
+    border: none;
+    line-height: 1.5rem;
+    
+    color: #fff;
+
+    padding: 0;
+    width: 80%;
+}
+
+blockquote:before {
+    position: absolute;
+    content: "\f10d";
+    top: -3px;
+    left: -3px;
+    font-family: FontAwesome;
+}
+
+blockquote:after
+{
+	position: absolute;
+	content: "\f10e";
+	bottom:-5px;
+	right: -2px;
+	font-family: FontAwesome;
+}
+
+.testimonial-carousel li img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.testimonial-carousel li p.name {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.testimonial-carousel li p.position {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.testipager  li {
+    margin-right: 5px;
+}
+
+.testipager li:last-child {
+    margin-right: 0px;
+
+}
+
+.testipager li a {
+    color: #fff;
+}
+
+.testipager li.selected a {
+    color: #e74c3c;
 }
