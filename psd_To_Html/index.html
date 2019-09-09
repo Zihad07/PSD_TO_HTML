@@ -19,16 +19,22 @@
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css">
 
+    <!-- Slicknav css -->
+    <link rel="stylesheet" href="css/slicknav.min.css">
+
     <!-- Reset.css -->
     <link rel="stylesheet" href="css/reset.css">
 
     <!-- My Custom Css -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
+
     <script src="js/respond.min.js"></script>
 </head>
 
-<body>
+<body id="main">
 
     <!-- <h2>Hello world</h2> -->
 
@@ -37,8 +43,8 @@
             <div class="row">
                 <a href="#" class="logo"><img src="img/logo.png" alt="logo"></a>
 
-                <nav class="menu ml-auto" id="menu">
-                    <ul>
+                <nav class="ml-auto">
+                    <ul id="menu" class="menu">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Service</a></li>
                         <li><a href="#">Our work</a></li>
@@ -133,7 +139,7 @@
 
     <!-- Portfolio Section -->
 
-    <section class="portfolio section-padding">
+    <section class="portfolio section-padding parallax-window" data-parallax="scroll" data-image-src="../img/our_work/workbg.png">
         <div class="portfolio-header mb-1">
             <h1 class="text-white">Our Work</h1>
             <p>It is a long established fact that a reader will be distracted by the<br/> readable content of a page when looking at its layout</p>
@@ -313,7 +319,7 @@
     </section>
 
     <!-- Testimonial section -->
-    <section class="testimonials section-padding center">
+    <section class="testimonials section-padding center parallax-window" data-parallax="scroll" data-image-src="../img/client_Testimonial/testbg.png">
         <div class="testimonials-header">
             <h1 class="text-white">Clinet Testimonials</h1>
             <p>It is a long established fact that a reader will be distracted by the<br/> readable content of a page when looking at its layout</p>
@@ -340,7 +346,9 @@
                     <p class="name">Christina</p>
                     <p class="position">Web Developer</p>
                     <blockquote class="mx-auto">
-                        <i>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'.</i>
+                        <i>
+                            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy
+                        </i>
                     </blockquote>
                 </li>
                 
@@ -349,7 +357,9 @@
                     <p class="name">Alex</p>
                     <p class="position">Web Designer</p>
                     <blockquote class="mx-auto">
-                        <i>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy</i>
+                        <i>
+                            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy
+                        </i>
                     </blockquote>
                 </li>
             </ul>
@@ -416,7 +426,7 @@
 
     <!-- Contact Section  -->
 
-    <section class="section-padding contact" id="contact">
+    <section class="section-padding contact parallax-window" data-parallax="scroll" data-image-src="../img/contact-bg.png" id="contact" >
 
         <div class="contact-header text-center text-white">
             <h1 class="text-white">Contact Us</h1>
@@ -509,6 +519,12 @@
 
     <!-- Bootstrap js -->
     <script src="bootstrap4/js/bootstrap.min.js"></script>
+    <!-- Slicknav -->
+    <script src="js/jquery.slicknav.min.js"></script>
+
+    <!-- Parallax effect -->
+    <script src="js/parallax.min.js"></script>
+
     <!-- My custom JS -->
     <script src="js/myjs.js"></script>
 </body>

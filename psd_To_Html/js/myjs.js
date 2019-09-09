@@ -110,4 +110,20 @@ $(document).ready(function(){
             $('header').removeClass('secondary-dark-blue-bg');
         }
     });
+
+    // Slick nav
+
+    $('#menu').slicknav({
+        label:''
+    });
+
+    // for Prallax effect
+
+    $('.parallax-window').parallax(
+        {
+        // imageSrc: '/path/to/image.jpg'
+        imageSrc: 'g../img/contact-bg.png'
+    });
+
+    
 })

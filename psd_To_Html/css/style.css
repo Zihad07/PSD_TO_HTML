@@ -186,7 +186,7 @@ header nav ul li a:hover{
 
 .portfolio-nav li {
     cursor: pointer;
-    margin-right: 10px;
+    margin-right: 10px !important;
     width: 28px;
     height: 28px;
     line-height: 28px;
@@ -400,6 +400,7 @@ blockquote:after
 /*** Contact Secttion  ***/
 
 .contact {
+    /* background: url('../img/contact-bg.png') no-repeat center center/cover; */
     background: url('../img/contact-bg.png') no-repeat center center/cover;
 }
 
@@ -482,6 +483,10 @@ footer p.about {
 
 
 
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
 
 
 
